@@ -10,11 +10,15 @@ export class HomePage {
   constructor() {}
     myVariable: string ="The force is with me!";
     myVariable2: string ="Hello from CCT";
+    myVariable3: string ="Third button";
     
     updateMyValue(){
       this.myVariable = "Now the force is even stronger!!";
     }
     updateMyValue2(){
       this.myVariable2 = "Hello from Ionic Mobile Development";
+    }
+    updateMyValue3(){
+      this.myVariable3 = "Three!!";
     }
 }
